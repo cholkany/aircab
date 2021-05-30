@@ -1,0 +1,38 @@
+.Select{
+    width: 60%;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    background-color: chocolate;
+}
+
+
+.Label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:80%;
+    height: 90%;
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    padding: auto;
+}
+
+.Label span{
+    width: 20%;
+    height: 100%;
+    padding-top: 12px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.Label input[type="text"] {
+    height: 100%;
+    width: 70%;
+    padding-left: 10px;
+    border-style: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: large;
+}
